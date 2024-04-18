@@ -1,0 +1,4 @@
+2024-04-17 20:19:08,263 INFO o.s.b.StartupInfoLogger [main] Starting VentasApplication using Java 18.0.2 on LAPTOP-7D9S67U8 with PID 74240 (C:\Users\yulya\Desktop\Nueva\ventas\target\classes started by yulya in C:\Users\yulya\Desktop\Nueva\ventas)
+2024-04-17 20:19:08,287 DEBUG o.s.b.StartupInfoLogger [main] Running with Spring Boot v2.5.5, Spring v5.3.10
+2024-04-17 20:19:08,289 INFO o.s.b.SpringApplication [main] No active profile set, falling back to default profiles: default
+2024-04-17 20:19:17,451 DEBUG o.s.w.f.GenericFilterBean [main] Filter 'jwtTokenFilter' configured for use

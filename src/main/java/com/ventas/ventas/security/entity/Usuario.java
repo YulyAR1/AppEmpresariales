@@ -1,5 +1,6 @@
 package com.ventas.ventas.security.entity;
 
+import com.ventas.ventas.entity.Auditable;
 import com.ventas.ventas.entity.Empleado;
 
 import javax.persistence.*;
@@ -9,7 +10,7 @@ import java.util.Set;
 
 @Entity
 @Table(name="usuario")
-public class Usuario {
+public class Usuario extends Auditable {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;

@@ -20,15 +20,6 @@ public class Empleado extends Persona implements Serializable{
     @Column(name = "idempleado")
     private int idEmpleado;
 
-    @Column(name = "numero_documento")
-    private String numeroDocumento;
-
-    @Column(name = "nombre")
-    private String nombre;
-
-    @Column(name = "correo")
-    private String correo;
-
     @OneToOne
     @JoinColumn(name = "usuario_id", unique = true)
     private Usuario usuario;
