@@ -106,6 +106,4 @@ public class ProductoController {
         productoService.delete(id);
         return new ResponseEntity(new Mensaje("producto eliminado"), HttpStatus.OK);
     }
-
-
 }
